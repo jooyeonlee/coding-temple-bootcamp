@@ -10,6 +10,7 @@
         * {
             box-sizing: border-box;
         }
+        /* Style the body */
         body {
             font-family: Arial;
             padding: 10px;
@@ -21,6 +22,7 @@
             text-align: center;
             background: white;
         }
+        /* header font h1 */
         .header h1{
             font-size: 50px;
         }
@@ -43,7 +45,7 @@
             background-color: #ddd;
             color: black;
         }
-        /* Create two unequal columns that floats next to each other */
+        /* Create two unequal columns - left and right */
         /* Left column */
         .leftcolumn {
             float: left;
@@ -62,7 +64,7 @@
             width: 100%;
             padding: 20px;
         }
-        /* Add a card effect for articles */
+        /* Card effect for articles */
         .card {
             background-color: white;
             padding: 20px;
@@ -74,14 +76,14 @@
             display: table;
             clear: both;
         }
-        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other*/
+        /* Responsive layout - when the screen is less than 800px wide */
         @media screen and (max-width: 800px) {
             .leftcolumn, .rightcolumn {
                 width: 100%;
                 padding: 0;
             }
         }
-        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        /* Responsive layout - when the screen is less than 400px wide */
         @media screen and (max-width: 400px) {
             .topnav a {
                 float: none;
@@ -90,18 +92,20 @@
         }
     </style>
 </head>
+/* HTML Body */
 <body>
+    /* Header */
     <div class="header">
         <h1>Joo Yeon Lee</h1>
     </div>
-
+    /* Navigator */
     <div class="topnav">
         <a href="#">Coding Temple</a>
         <a href="#">Learn HTML</a>
         <a href="#">Learn CSS</a>
         <a href="#">Other Page</a>
     </div>
-
+    /* Column */
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
